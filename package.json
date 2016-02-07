@@ -7,7 +7,7 @@
     "example": "example"
   },
   "scripts": {
-    "test": "node basic/example.js"
+    "test": "node examples/basic.js"
   },
   "keywords": [],
   "author": "Thibaud Colas <thib@thib.me> (https://github.com/ThibWeb)",
