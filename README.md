@@ -1,4 +1,4 @@
-export-svg-chart
+export-svg-chart [![npm](https://img.shields.io/npm/v/export-svg-chart.svg?style=flat-square)](https://www.npmjs.com/package/export-svg-chart) [![Build Status](https://img.shields.io/travis/ThibWeb/export-svg-chart.svg?style=flat-square)](https://travis-ci.org/ThibWeb/export-svg-chart) [![dependency Status](https://img.shields.io/david/ThibWeb/export-svg-chart.svg?style=flat-square)](https://david-dm.org/ThibWeb/export-svg-chart) [![devDependency Status](https://img.shields.io/david/dev/ThibWeb/export-svg-chart.svg?style=flat-square)](https://david-dm.org/ThibWeb/export-svg-chart)
 ================
 
 ## Install
