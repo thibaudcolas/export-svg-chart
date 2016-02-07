@@ -1,0 +1,21 @@
+{
+  "name": "export-svg-chart",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/export-svg-chart.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "data-uri-to-buffer": "0.0.4",
+    "nightmare": "^2.1.6",
+    "save-svg-as-png": "^1.0.2",
+    "vo": "^1.0.3"
+  }
+}
