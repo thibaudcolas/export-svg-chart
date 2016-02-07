@@ -1,0 +1,21 @@
+sudo: false
+language: node_js
+node_js:
+- '4'
+install:
+- npm install
+script:
+- npm run test
+notifications:
+  email:
+    on_success: change
+    on_failure: always
+deploy:
+  provider: npm
+  email: thib@thib.me
+  api_key:
+    secure: ObZ3pwh+1rNpDirnKpN5MeQB7ufBviO9MOEQNA1dSlliDmhmuSaWxij9yPNJ2wj63vIGDCexz5y/cQoQ8QzCmbx074ajZWZV1CgB362mTuKCvV6XoVZtfnMbYRVWVwxjsadk6KExc+8I5U/QC61xQGT4PfMEn1KrBs8qTytTT8cgYulWqfA3NhGcK+zD5eImsZVjt9btKjYfIR8EaFbj6tl/eb95sL5lSspmmp9jo2DN1sv7HN5LvDSoXMcB5+bkZ/pjrFcKro7ha3MK5+xqtrJsvIr5gr3u2jJk5OIQOvNQGjL0D4qxOLMZvpY4nJ7YSFRt1YEyWwfmUzi6/TxvUp8WgDNxdutVvyjir3mgQw28Tjr5WeeI1rmHyMKy9uyVqGlzdNMd6NIafTYFbyJeCdKy9rzTSEHfuPrafKGE1bmA6Bp2q3qi63U8gBjRQ2KI4PFfReImii0nHjz5NCoY9ekZ6YtsQsTYkZjaCB22tXZmWP6D2TgimHNs2ZSBg2OCDa0eI2bRPJHrkas7crRzK+CtLdKY/uYb+z96wp3zuAV5Qygp9bzTtIwTlk+PfP/tqHOyKNBrjRWQaXVxswk9XUQa0eADd0oDFuBnFFIqUK90ROrDGCSaNYc+WkMVjRyNBZqAd2jj1YX6mWjjmTTOX1B8c1OfkltnEjDEePrdgXY=
+  on:
+    tags: true
+    repo: ThibWeb/export-svg-chart
+  skip_cleanup: true
