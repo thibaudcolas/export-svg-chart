@@ -11,6 +11,11 @@
   },
   "keywords": [],
   "author": "Thibaud Colas <thib@thib.me> (https://github.com/ThibWeb)",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "private": false,
+  "preferGlobal": false,
   "license": "ISC",
   "dependencies": {
     "data-uri-to-buffer": "0.0.4",
