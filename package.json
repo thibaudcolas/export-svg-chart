@@ -7,10 +7,10 @@
     "example": "example"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node basic/example.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Thibaud Colas <thib@thib.me> (https://github.com/ThibWeb)",
   "license": "ISC",
   "dependencies": {
     "data-uri-to-buffer": "0.0.4",
