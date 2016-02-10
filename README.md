@@ -11,6 +11,8 @@ npm install export-svg-chart --save
 
 ## Example
 
+To get SVG and PNG exports of your chart, you need to point the library towards a page that takes care of rendering it. This can be a dynamic rendering with UI elements, or an "export/print"-specific page with another skin for the chart.
+
 ```js
 const fs = require('fs');
 const exportSvgChart = require('export-svg-chart');
@@ -30,8 +32,9 @@ exportSvgChart(options, (err, buffers) => {
 
 http://bl.ocks.org/mbostock/raw/7341714/ becomes:
 
-[![basic example PNG](./basic-example.png)](./basic-example.png)
-[![basic example SVG](./basic-example.svg)](./basic-example.svg)
+[![basic example PNG](basic-example.png)](basic-example.png)
+
+[Basic example SVG](basic-example.svg)
 
 ## What it does
 
