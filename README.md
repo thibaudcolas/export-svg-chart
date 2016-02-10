@@ -43,4 +43,4 @@ Under the hood, this is using [Electron](http://electron.atom.io/) which uses [C
 ### Caveats
 
 - saveSvgAsPng doesn't support inlining of font face definitions ([yet](https://github.com/exupero/saveSvgAsPng/pull/29)).
-- If the chart is styled with ancestor selectors that are outside of it, the selectors need to be re-mapped when they are inlined.
+- If the chart is styled with ancestor selectors that are outside of it, the selectors need to be re-mapped when they are inlined. This isn't supported within this library at the moment.
