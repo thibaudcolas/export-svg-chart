@@ -1,6 +1,6 @@
 {
   "name": "export-svg-chart",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Converts SVG+CSS charts built with front-end technologies like D3 into SVG/PNG Node buffers for server-side use.",
   "main": "lib/export-svg-chart.js",
   "directories": {
