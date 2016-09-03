@@ -6,10 +6,8 @@ const options = {
     selector: '.chart',
 };
 
-exportSvgChart(options, function(err, buffers) {
-    if (err) {
-        return console.log(err);
-    }
+exportSvgChart(options, (err, buffers) => {
+    if (err) return console.log(err);
 
     fs.writeFile('basic-example.svg', buffers.svg);
     fs.writeFile('basic-example.png', buffers.png);
