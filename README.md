@@ -5,6 +5,8 @@ export-svg-chart [![npm](https://img.shields.io/npm/v/export-svg-chart.svg?style
 
 ## Install
 
+> This package requires node 4 or above.
+
 ```sh
 npm install export-svg-chart --save
 ```
