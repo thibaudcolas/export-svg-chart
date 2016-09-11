@@ -10,7 +10,7 @@
     "test": "node examples/basic.js"
   },
   "keywords": [],
-  "author": "Thibaud Colas <thib@thib.me> (https://github.com/ThibWeb)",
+  "author": "Thibaud Colas <thib@thib.me> (https://github.com/thibaudcolas)",
   "engines": {
     "node": ">=4.0.0"
   },
