@@ -3,18 +3,9 @@ language: node_js
 node_js:
 - 4
 - node
-install: npm install
-script: npm run test
+install:
+- npm install
+script:
+- npm run test
 notifications:
-  email:
-    on_success: change
-    on_failure: always
-deploy:
-  provider: npm
-  email: thibaudcolas@gmail.com
-  api_key:
-    secure: YK+xcecJ9QInYYfm71n+q2TCvJC3Y2hist0mw999SGQeTIh7ghG3MM/kShBM3SyPQ2Uie003bzsJ+4PqE5tsk4uo9eW26yb5OQu+zKa957O5HaVBffsi256UVkdQF9UZl0Bcmlp4mdMamSFjiWl8fYNEzV0+sNCfgCS/SYRDKZLdye86OrjPNXk65cKysGa52EDnizCiddhSZ0SiHjl64QnZ2q7sdOFyB6RLXmvkdVzKdXgi8cQrHzpiF4G3KgYzIfG/zl6gDiwPf3NXTitjKLSuLRN7/jvU9fLgbev97mnytVstIjXHwZnh83ZktpR7x/gR7OeaEKfXgKtAOOPXGmBQIyjG2T4lmzO4iCjJ02m7Hl93BYwZvSy1BsYdr1rSygQfi9xSIK+5pRzdcjqoY+IlpPyRi4cZ0cubEXxTYoYVi3iQ6sJ4zHQjzQP2+864yaUBfbbUhwt9bRoOCGkfi+c1wttuJ/O9KLC/iQ6GDL5VlatFw2ezJUbQBWvdWy9TbxkMoBdZZuAvS+IqIjviBfjkvOecS7117zaz5xCuk2Rle38O1luyyrbvwCI+u19C69YlSqA87l5NINma2K8xsWveM8hi+/lB3PVNfG0KLimhwmWCf8+76G0KfETK7+e9JsSx39MGGVDcWk4MQlu7AZps7GXVgi4uKYuGt5q9cI4=
-  on:
-    tags: true
-    repo: thibaudcolas/export-svg-chart
-  skip_cleanup: true
+  email: false
