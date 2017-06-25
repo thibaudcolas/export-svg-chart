@@ -6,9 +6,6 @@
   "directories": {
     "example": "example"
   },
-  "scripts": {
-    "test": "node examples/basic.js"
-  },
   "keywords": [],
   "author": "Thibaud Colas <thib@thib.me> (https://github.com/thibaudcolas)",
   "engines": {
@@ -22,5 +19,8 @@
     "nightmare": "^2.1.6",
     "save-svg-as-png": "^1.0.2",
     "vo": "^1.0.3"
+  },
+  "scripts": {
+    "test": "node examples/basic.js && wc -c basic-example.png && wc -c basic-example.svg && cat basic-example.svg"
   }
 }
