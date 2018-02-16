@@ -28,7 +28,7 @@ exportSvgChart(options, (err, buffers) => {
     if (err) return console.log(err);
 
     fs.writeFile('basic-example.svg', buffers.svg);
-    fs.writeFile('basic-example.png', buffers.pngs);
+    fs.writeFile('basic-example.png', buffers.png);
 });
 ```
 
